@@ -1,0 +1,109 @@
+html, body  {
+  background:url(../img/bg.jpg) center center no-repeat;
+  height:100%;
+  background-size: cover;
+}
+
+@media(max-width:768px){
+
+
+    #counter .countdown{
+      font-size:1.8em !important;
+    }
+    #icons .fa{
+      margin:0 !important ;
+      font-size:2em;
+    }
+}
+@media(min-width:250px) and (max-width:568px){
+  #logo .fa{
+    font-size:2.5em;
+    color:red;
+  }
+  #logo .fa:hover{
+    font-size:2.8em;
+    color:red;
+  }
+
+}
+
+
+
+
+#logo .fa{
+  color:white;
+  height: 25%;
+  width: 25%;
+padding-top: 20px;
+padding-bottom: 20px;
+position:relative;
+transition: all 0.5s ease-in-out;
+}
+
+#intro p{
+  color:white;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Just Another Hand', cursive;
+  font-size: 1.8em;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px black;
+
+}
+
+#counter .countdown{
+text-align: center;
+color: white;
+text-shadow: 2px 2px black;
+font-family: 'Amatica SC', cursive;
+font-size:3em;
+margin: -15px 0 0;
+
+}
+
+#icons{
+  text-align: center;
+}
+
+#icons .fa {
+  color:white;
+  margin:5px 15px;
+  position:relative;
+  bottom:0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+#icons .twitter:hover{
+    color:#6cadde;
+    bottom:-8px;
+}
+
+
+
+#icons .github:hover{
+    color:black;
+    bottom:8px;
+
+}
+
+#icons .linkedin:hover{
+    color:#0077b5;
+    bottom:-8px;
+}
+
+#logo .freecodecamp:hover{
+    color:#38b741;
+    bottom:-15px;
+
+}
+
+#signgup{
+  text-align: center;
+
+}
+#signgup .btn:hover{
+  background-color:green;
+
+}
