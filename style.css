@@ -21,11 +21,7 @@ max-width:150px;
 }
 
 
-.img-responsive:hover{
-box-shadow:3px 3px red;
-max-height:220px;
-max-width:150px;
-}
+
 
 .header,
 .footer {
@@ -72,9 +68,14 @@ max-width:150px;
   border:0px;
 }
 
-.thumbnail img {
+ {
   width: 100%;
   display: block;
+}
+
+.thumbnail img:hover{
+box-shadow:4px 4px red;
+
 }
 
 .flex{
