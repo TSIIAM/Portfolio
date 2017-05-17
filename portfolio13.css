@@ -1,0 +1,160 @@
+html, body {
+  margin: 0;
+  
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+/* Main */
+.main {
+    background-color:seagreen;
+  text-align: center;
+  background-size: cover;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+  
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 150px;
+}
+
+.main p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #006600;
+  padding: 50px 0 80px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.supporting .col {
+    
+  float: left;
+  padding: 50px;
+  width: 20%;
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Feature */
+.feature {
+    border: 1px solid black;
+  background-color:seagreen;
+   position: relative;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+.feature .container {
+  position: relative;
+  top: 200px;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin:0;
+  padding:50px 0 0;
+}
+
+/* Footer */
+.footer {
+    border: 1px solid black;
+  background-color:seagreen;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}
+
+.footer .container {
+  position: relative;
+  top: 300px;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding:50px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.btn:hover {
+    border: 1px solid black;
+  background:#ffa800;
+  color:#000;
+}

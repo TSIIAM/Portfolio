@@ -1,0 +1,59 @@
+body {
+  background-position:right;
+  background-size:cover;
+  color: white;
+  font-family:verdana;
+    margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 20%;
+  padding-bottom: 20px;
+  transition: all 1.5s;
+}
+
+h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.container .quote {
+    background: linear-gradient(-80deg, rgba(89, 2, 175, 0.42) 25%, rgba(150, 50, 250, 0.32) 50%, rgba(155, 85, 225, 0.21)100%);
+    background-repeat: no-repeat;
+    color: black;
+    box-shadow: 2px 2px black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.btn .twitter-share-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: white;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: white;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* selected link */
+
+a:active {
+    color: white;
+}
