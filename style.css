@@ -18,7 +18,13 @@ body {
 box-shadow:3px 3px black;
 max-height:220px;
 max-width:150px;
+}
 
+
+.img-responsive:hover{
+box-shadow:3px 3px red;
+max-height:220px;
+max-width:150px;
 }
 
 .header,
