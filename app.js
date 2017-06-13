@@ -1,3 +1,6 @@
+$("document").ready(main);
+
+
 var main = function() {
   $('.nav li').click(function() {
     var category = $(this).attr('class');
